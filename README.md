@@ -1,12 +1,12 @@
 # 🚀 sandybridge-android
-> **Pure Android 11 (AOSP) for Legacy Intel Sandy Bridge Architecture with Native Hardware Acceleration & GSI Support**  
+> **Pure Android 15 (AOSP) for Legacy Intel Sandy Bridge Architecture with Native Hardware Acceleration & GSI Support**  
 > *Powered by Project Celadon & Open-Source Mesa3D (Crocus/i965)*
 
 ---
 
 ## 📌 Overview
 
-`sandybridge-open` is a targeted, open-source Android 11 build tree specifically patched and optimized for **2nd Gen Intel Core Processors (Sandy Bridge)** and **Intel HD Graphics 3000 (Gen6 GPU)**.
+`sandybridge-open` is a targeted, open-source Android 15 build tree specifically patched and optimized for **2nd Gen Intel Core Processors (Sandy Bridge)** and **Intel HD Graphics 3000 (Gen6 GPU)**.
 
 Most modern x86 Android and Intel Celadon builds target newer microarchitectures (Silvermont, Haswell, Kaby Lake). As a result, C/C++ compilers routinely inject instruction sets like `MOVBE` or `AVX2` into core system libraries. On Sandy Bridge hardware, this causes instant **`SIGILL` (Illegal Instruction)** crash loops in `libart`, `surfaceflinger`, and `Mesa3D`.
 
